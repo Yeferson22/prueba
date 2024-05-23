@@ -6,4 +6,3 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   alert('¡Gracias por contactarnos! Nos pondremos en contacto contigo lo antes posible.');
 });
-
