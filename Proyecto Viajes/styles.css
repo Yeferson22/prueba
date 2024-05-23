@@ -1,0 +1,209 @@
+/* Add your CSS code here */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text {
+  margin-left: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#lugares {
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+#lugares h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#lugares ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#lugares li {
+  flex-basis: calc(33.33% - 2rem);
+  margin: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1rem;
+}
+
+#lugares img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+#lugares h3{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#lugares p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#cosas {
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+#cosas h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#cosas ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#cosas li {
+  flex-basis: calc(33.33% - 2rem);
+  margin: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1rem;
+}
+
+#detalles {
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+#detalles h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#detalles .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+#detalles div {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+#detalles h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#detalles p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#contacto {
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+#contacto h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contacto label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+#contacto input,
+#contacto textarea {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contacto button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
