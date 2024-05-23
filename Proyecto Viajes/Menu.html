@@ -43,9 +43,7 @@
               </ul>
               <button id="Checkout">Comprar</button>
             </section>
-            <button class="add-to-cart" data-trip-name="Navy Pier Chicago"
-             data-trip-price="1.000.000">Agregar al Carrito
-            </button>
+
         </li>
         <li>
           <img src="imagenes/Faneuil Hall Boston.jpeg" alt="Imagen del Faneuil Hall en Boston">
@@ -60,9 +58,7 @@
                 </ul>
                 <button id="Checkout">Comprar</button>
               </section>
-              <button class="add-to-cart" data-trip-name="Hall Boston"
-               data-trip-price="1.500.000">Agregar al Carrito
-              </button>
+
         </li>
         <li>
           <img src="imagenes/Centro Espacial Kennedy.jpeg" alt="Imagen del Centro Espacial Kennedy en Florida">
@@ -77,9 +73,7 @@
                 </ul>
                 <button id="Checkout">Comprar</button>
               </section>
-              <button class="add-to-cart" data-trip-name="Centro Espacial Kennedy"
-               data-trip-price="2.000.000">Agregar al Carrito
-              </button>
+
         </li>
       </ol>
     </section>
@@ -118,15 +112,16 @@
         <button type="submit">Enviar</button>
       </form>
     </section>
-    <nav role="navigation">
-      <ul>
-        <li><a href="#inicio.html">Inicio</a></li>
-        <li><a href="#lugares.html">Lugares a Visitar</a></li>
-        <li><a href="#cosas.html">Cosas Que Ver</a></li>
-        <li><a href="#detalles.html">Detalles Atractivos</a></li>
-        <li><a href="#contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
+    <script>
+      function validarCompra(precio) {
+        if (precio == 0) {
+          alert("No se ha seleccionado ningún lugar para la compra.");
+        } else {
+          alert("Compra realizada con éxito!");
+        }
+      }
+    </script>
+
   </main>
   <footer>
     <p>&copy; 2024 Viajes Exóticos. Todos los derechos reservados.</p>
